@@ -1,0 +1,16 @@
+.navbar-nav a{
+    font-size: 18px;
+}
+.img{
+    opacity: 0.6;
+    object-fit: cover;
+}
+.bg{
+    color: rgba(255, 255, 255, 0.8);
+    text-align:end;
+    align-items: center;
+}
+.App{
+    /* color: rgb(169, 112, 223); */
+    /* background-color: rgba(211, 209, 209, 0.63); */
+}
