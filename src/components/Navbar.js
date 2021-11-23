@@ -1,6 +1,7 @@
 import React from "react";
 import {Link } from "react-router-dom";
 import { useSelector } from "react-redux";
+import Login from './buttons/Signup'
 
 
 const Navbar = () => {
@@ -32,7 +33,7 @@ const Navbar = () => {
          <Link to="/login" className="btn btn-outline-dark">
           <i className="fa fa-sign-in me-2"></i>Login</Link>
          <Link to="/register" className="btn btn-outline-dark ms-2">
-          <i className="fa fa-user-plus me-2"></i>Register</Link>
+          <i className="fa fa-user-plus me-2"></i>Signup</Link>
          <Link to="/cart" className="btn btn-outline-dark ms-2">
           <i className="fa fa-shopping-cart me-2"></i>Cart ({stat.length})</Link>
       </div>

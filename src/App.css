@@ -14,3 +14,66 @@
     /* color: rgb(169, 112, 223); */
     /* background-color: rgba(211, 209, 209, 0.63); */
 }
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.wrap {
+    background: linear-gradient(to bottom, #f6f6f6, #e9e9e9);
+    height: 100vh;
+}
+.cool-b4-form .btn {
+    border-radius: 0;
+}
+.cool-b4-form .form-group {
+    position: relative;
+    padding-top: 20px;
+    margin-bottom: 0;
+   /* If there's only 1 input make it full height */
+}
+.cool-b4-form .form-group:first-child:last-child {
+    height: 100%;
+}
+.cool-b4-form .form-group:first-child:last-child .form-control {
+    height: 100%;
+}
+.cool-b4-form .form-group textarea {
+    height: 150px;
+    resize:none;
+}
+.cool-b4-form .form-group .input-highlight {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #000000;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    transition: width 0.4s ease;
+}
+.cool-b4-form .form-group label {
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    transition: all 0.4s ease;
+}
+.cool-b4-form .form-group .form-control {
+    border-radius: 0;
+    border-width: 0 0 2px 0;
+}
+.cool-b4-form .form-group .form-control:focus, .cool-b4-form .form-group .form-control.hasValue {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+.cool-b4-form .form-group .form-control:focus ~ .input-highlight, .cool-b4-form .form-group .form-control.hasValue ~ .input-highlight {
+    width: 100%;
+}
+.cool-b4-form .form-group .form-control:focus ~ label, .cool-b4-form .form-group .form-control.hasValue ~ label {
+    transform: scale(0.7);
+    top: 0;
+    left: 0;
+}
+
