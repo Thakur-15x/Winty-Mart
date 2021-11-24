@@ -6,8 +6,13 @@
     object-fit: cover;
 }
 .img1{
+    
     object-fit: contain;
     height: 35px;
+}
+.img2{
+    
+    object-fit: contain ;
 }
 .bg{
     color: rgba(255, 255, 255, 0.8);
