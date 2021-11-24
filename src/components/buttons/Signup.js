@@ -73,8 +73,8 @@ const Signup = () => {
                             <a type="button" className="btn-outline-danger  btn-lg">
                                 <i className="fa fa-google-plus"></i>
                             </a>
-                            <a type="button" className="btn-outline-success  btn-lg">
-                                <i className="fa fa-github"></i>
+                            <a type="button" className="btn-outline-primary  btn-lg">
+                                <i className="fa fa-linkedin"></i>
                             </a>
                         </div>
 

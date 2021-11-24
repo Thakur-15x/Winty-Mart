@@ -52,7 +52,7 @@ function Product() {
                   <img src={product.image} alt={product.title} height='400px' width='400px' />
               </div>
               <div className="col-md-6">
-                  <h4 className="text-uppercase text">{product.category}</h4>
+                  <h6 className="text-uppercase text-muted">{product.category}</h6>
                   <h1 className="display-5">{product.title}</h1>
                   <p className="lead fw-bolder">Rating {product.rating && product.rating.rate} <i className="fa fa-star"></i></p>
                   <h3 className="display-6 fw-bold my-4">

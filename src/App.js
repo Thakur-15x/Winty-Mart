@@ -9,6 +9,7 @@ import Checkout from './components/Checkout';
 import Login from './components/buttons/Login';
 import Signup from './components/buttons/Signup';
 import Contact from './components/Contact';
+import About from './components/About';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Route exact path="/login" element={<Login/>} ></Route>
       <Route exact path="/register" element={<Signup/>} ></Route>
       <Route exact path="/contact" element={<Contact/>} ></Route>
+      <Route exact path="/about" element={<About/>} ></Route>
       </Routes>
       
     </div>
