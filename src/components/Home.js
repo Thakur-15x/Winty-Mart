@@ -13,9 +13,10 @@ function Home() {
         />
         <div className="card-img-overlay d-flex bg">
           <div className="container">
-            <h5 className="card-title display-3 fw-bolder mb-1">NEW COLLECTIONS</h5>
-            <p className="card-text LEAD FS-2">
-                HURRY!!.. CHECK OUT NEW TREANDS
+            <h5 className="card-title display-2 fw-bolder mb-1">NEW TREANDS</h5>
+            <h6 className="card-title display-5 " >Save Upto 60% on Winter Collections.</h6>
+            <p className="card-text LEAD FS-2 mt-2 fw-bolder">
+                HURRY UP !!!... CHECK OUT NEW TREANDS.
             </p>
           </div>
         </div>

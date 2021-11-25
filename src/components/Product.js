@@ -23,7 +23,7 @@ function Product() {
             setloading(false);
         }
         getProduct();
-    }, []);
+    }, [id]);
 
     const Loading = () => {
         return (

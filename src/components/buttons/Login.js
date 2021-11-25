@@ -9,7 +9,7 @@ const Login = () => {
             <img
               src="https://mdbootstrap.com/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
               className="img-fluid"
-              alt="Phone image"
+              alt="Phone"
             />
           </div>
           <div className="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
@@ -64,15 +64,14 @@ const Login = () => {
               <div className="divider d-flex align-items-center my-4">
                 <p className="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
               </div>
-
               <div className="container d-flex justify-content-center ">
-              <a type="button" className="btn-outline-primary btn-lg">
+              <a href='/' type="button" className="btn-outline-primary btn-lg">
                                 <i className="fa fa-facebook-f"></i>
                             </a>
-                            <a type="button" className="btn-outline-info  btn-lg">
+                            <a href='/' type="button" className="btn-outline-info  btn-lg">
                                 <i className="fa fa-twitter"></i>
                             </a>
-                            <a type="button" className="btn-outline-danger  btn-lg">
+                            <a href='/' type="button" className="btn-outline-danger  btn-lg">
                                 <i className="fa fa-google-plus"></i>
                             </a>
               </div>

@@ -1,6 +1,9 @@
 .navbar-nav a{
     font-size: 18px;
 }
+.logo{
+    letter-spacing: 3px;
+}
 .img{
     opacity: 0.6;
     object-fit: cover;
@@ -16,12 +19,14 @@
 }
 .bg{
     color: rgba(255, 255, 255, 0.8);
-    text-align:end;
+    margin-left: 600px;
     align-items: center;
 }
-.App{
-    /* color: rgb(169, 112, 223); */
-    /* background-color: rgba(211, 209, 209, 0.63); */
+.crd{
+    transition: all 0.5s;
+}
+.crd:hover{
+    transform:scale(1.04);
 }
 .divider:after,
 .divider:before {

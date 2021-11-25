@@ -64,16 +64,16 @@ const Signup = () => {
                         <p>or sign up with:</p>
 
                         <div className="container d-flex justify-content-center ">
-                            <a type="button" className="btn-outline-primary btn-lg">
+                            <a href='/' type="button" className="btn-outline-primary btn-lg">
                                 <i className="fa fa-facebook-f"></i>
                             </a>
-                            <a type="button" className="btn-outline-info  btn-lg">
+                            <a href='/' type="button" className="btn-outline-info  btn-lg">
                                 <i className="fa fa-twitter"></i>
                             </a>
-                            <a type="button" className="btn-outline-danger  btn-lg">
+                            <a href='/' type="button" className="btn-outline-danger  btn-lg">
                                 <i className="fa fa-google-plus"></i>
                             </a>
-                            <a type="button" className="btn-outline-primary  btn-lg">
+                            <a href='/' type="button" className="btn-outline-primary  btn-lg">
                                 <i className="fa fa-linkedin"></i>
                             </a>
                         </div>
