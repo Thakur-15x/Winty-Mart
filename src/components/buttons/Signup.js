@@ -2,48 +2,79 @@ import React from 'react'
 
 const Signup = () => {
     return (
-        <div className='container my-2'>
-            <div className="">
-
+        <div className='container bg1 '>
+            <div className="sign">
                 <div className="pt-4 pb-3">
 
                     <h5 className="text-center mt-1 mb-4">Sign Up</h5>
 
-                    <form action="/">
+                    <form className="cool-b4-form" action="/">
 
-                        <div className="form-row">
-                            <div className="col">
-                                <div className="md-form md-outline mt-0">
-                                    <label for="materialRegisterFormFirstName">First name</label>
-                                    <input type="text" id="materialRegisterFormFirstName" className="form-control" />
-                                </div>
+                        <div className="form-group">
+                            <div className="md-form md-outline">
+                                <input
+                                    type="text"
+                                    className="form-control"
+                                    name="name"
+                                    id="name"
+                                />
+                                <label for="name">First Name</label>
+                                <span className="input-highlight"></span>
                             </div>
-                            <div className="col">
-                                <div className="md-form md-outline mt-0">
-                                    <label for="materialRegisterFormLastName">Last name</label>
-                                    <input type="email" id="materialRegisterFormLastName" className="form-control" />
-                                </div>
+                        </div>
+                        <div className="form-group">
+                            <div className="md-form md-outline">
+                                <input
+                                    type="email"
+                                    className="form-control"
+                                    name="email"
+                                    id="email"
+                                />
+                                <label for="email">Last Name</label>
+                                <span className="input-highlight"></span>
                             </div>
                         </div>
 
-                        <div className="md-form md-outline mt-0">
-                            <label data-error="wrong" data-success="right" for="defaultForm-email2">Your email</label>
-                            <input type="email" id="defaultForm-email2" className="form-control" />
+                        <div className="form-group">
+                            <div className="md-form md-outline">
+                                <input
+                                    type="email"
+                                    className="form-control"
+                                    name="email"
+                                    id="email"
+                                />
+                                <label for="email">Email</label>
+                                <span className="input-highlight"></span>
+                            </div>
                         </div>
-                        <div className="md-form md-outline mt-0">
-                            <label data-error="wrong" data-success="right" for="defaultForm-pass2">Your password</label>
-                            <input type="password" id="defaultForm-pass2" className="form-control" />
+                        <div className="form-group">
+                            <div className="md-form md-outline">
+                                <input
+                                    type="email"
+                                    className="form-control"
+                                    name="email"
+                                    id="email"
+                                />
+                                <label for="email">Password</label>
+                                <span className="input-highlight"></span>
+                            </div>
                             <small id="materialRegisterFormPasswordHelpBlock" className="form-text text-muted mb-4">
                                 At least 8 characters and 1 digit
                             </small>
                         </div>
 
-                        <div className="md-form md-outline">
-                            <label for="materialRegisterFormPhone">Phone number</label>
-                            <input type="number" id="materialRegisterFormPhone" className="form-control" aria-describedby="materialRegisterFormPhoneHelpBlock" />
-                            <small id="materialRegisterFormPhoneHelpBlock" className="form-text text-muted mb-3">
-                                Optional - for two step authentication
-                            </small>
+
+                        <div className="form-group">
+                            <div className="md-form md-outline">
+                                <input
+                                    type="email"
+                                    className="form-control"
+                                    name="email"
+                                    id="email"
+                                />
+                                <label for="email">Confirm Password</label>
+                                <span className="input-highlight"></span>
+                            </div>
                         </div>
 
                     </form>
@@ -86,7 +117,6 @@ const Signup = () => {
                         </p>
 
                     </div>
-
                 </div>
 
             </div>
