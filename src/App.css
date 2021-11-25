@@ -36,6 +36,9 @@
   /* background: #eee; */
 }
 .wrap {
+    backdrop-filter: blur(2px);
+    margin: auto;
+    width: 100vh;
     /* background: linear-gradient(to bottom, #f6f6f6, #e9e9e9); */
     height: 100vh;
 }
@@ -93,8 +96,11 @@
 .sign{
    backdrop-filter: blur(2px);
    margin: auto;
-    max-width: 60%;
+   max-width: 60%;
 }
+.sign1{
+    backdrop-filter: blur(2px);
+ }
 .bg1{
     background: url(./conbg.jpg) center center/cover;
     color: #000000;

@@ -65,7 +65,7 @@ function Cart() {
       {stat.length === 0 && emptyCart()}
       {stat.length !== 0 && stat.map(cartItems)}
       {stat.length !== 0 && button()}
-    </>
+     </>
   );
 }
 
