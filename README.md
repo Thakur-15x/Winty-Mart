@@ -11,7 +11,7 @@
 
 <img width="1244" alt="Screenshot 2021-12-11 at 11 06 32 AM" src="https://user-images.githubusercontent.com/61470005/145665883-a9ab3731-9e49-4ebf-853d-13042f6cbdbc.png"><br>
 
-- Collections & Latest Products
+- Collections of Latest Products
 
 <img width="1440" alt="Screenshot 2021-12-11 at 11 06 57 AM" src="https://user-images.githubusercontent.com/61470005/145665922-74cfd830-a68c-4988-90e9-b9fc1259ca20.png"><br>
 
