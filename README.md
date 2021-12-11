@@ -46,8 +46,8 @@
 ## Tech Stack
 
 - [React](https://github.com/facebook/react) 
-- [Redux](https://github.com/react/redux)
-- [Fetch APIs]
+- [Redux](https://github.com/facebook/redux)
+- Fetch APIs
   - Async/await, Promise and Callback APIs
 
 
