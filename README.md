@@ -1,70 +1,86 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Winty-Mart
 
-## Available Scripts
+- ## An E-Commerce website  .
 
-In the project directory, you can run:
+---
 
-### `npm start`
+### Project Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Landing Page
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<img width="1244" alt="Screenshot 2021-12-11 at 11 06 32 AM" src="https://user-images.githubusercontent.com/61470005/145665883-a9ab3731-9e49-4ebf-853d-13042f6cbdbc.png">
 
-### `npm test`
+- Collection of Movies and Series
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<img width="1440" alt="Screenshot 2021-12-11 at 11 06 57 AM" src="https://user-images.githubusercontent.com/61470005/145665922-74cfd830-a68c-4988-90e9-b9fc1259ca20.png">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Footer
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="1429" alt="Screenshot 2021-12-11 at 11 07 02 AM" src="https://user-images.githubusercontent.com/61470005/145665935-6afebd00-99a1-44f2-a017-6e830f2612a2.png">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- SigIn UI
 
-### `npm run eject`
+<img width="1427" alt="Screenshot 2021-12-11 at 11 08 27 AM" src="https://user-images.githubusercontent.com/61470005/145665949-88bec883-00c9-400b-bfa5-357a34fc4495.png">
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Trailer Popup
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img width="1427" alt="Screenshot 2021-12-11 at 11 07 42 AM" src="https://user-images.githubusercontent.com/61470005/145665967-41156adb-9db4-4ef0-b5d7-5d7258f29151.png">
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img width="1426" alt="Screenshot 2021-12-11 at 11 09 26 AM" src="https://user-images.githubusercontent.com/61470005/145665981-09bcccb5-b630-49b1-8e9b-7ecc1611fa19.png">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="1414" alt="Screenshot 2021-12-11 at 11 09 37 AM" src="https://user-images.githubusercontent.com/61470005/145665991-35aaf198-1fca-4470-8609-bcf537810000.png">
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Tech Stack
 
-### Analyzing the Bundle Size
+- [React](https://github.com/facebook/react) 
+- [Axios](https://github.com/axios/axios)
+  - Promise based HTTP client for the browser.
+- [react-youtube](https://github.com/tjallingt/react-youtube)
+  - Simple React component acting as a thin layer over the YouTube IFrame Player API  
+- [movie-trailer](https://github.com/lacymorrow/movie-trailer)
+  - Fetch Youtube trailers for any movie
+  - Return one or many trailer URLs
+  - Async/await, Promise and Callback APIs
+- [tmdb](https://developers.themoviedb.org/3 )
+  - A list of Movies and Series Database
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+### Running Project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- install dependencies
 
-### Advanced Configuration
+```terminal
+npm install
+```
+- start the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```terminal
+npm start
+```
+Application will be serving on http://localhost:3000
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Building Application
 
-### `npm run build` fails to minify
+- Build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```terminal
+npm run build
+```
+Application will be built on build folder
+---
+
+
+## Author
+
+- Abhishek Tomar
+
+---
