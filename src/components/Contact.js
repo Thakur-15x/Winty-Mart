@@ -33,7 +33,7 @@ const Contact = () => {
                     name="email"
                     id="email"
                   />
-                  <label for="email">Email</label>
+                  <label for="email">Em@il</label>
                   <span className="input-highlight"></span>
                 </div>
               </div>
