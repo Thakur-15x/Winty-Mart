@@ -6,7 +6,7 @@ const Contact = () => {
      <div className=" bg1">
       <div className="wrap">
           <div className="text-center pt-4 pb-3">
-            <h2 className="mt-1 mb-4 mt-4">Have Any Questions?</h2>
+            <h2 className="mt-1 mb-4 mt-4">Have Any Questions ?</h2>
             <hr style={{ height: 4, color: "#8d05fc" }} />
 
             <form className="cool-b4-form" action="/">
@@ -61,7 +61,7 @@ const Contact = () => {
           <h6 className="fw-bold text-center mb-2"><u>Contact us</u></h6>
           <div className="d-flex mb-2 justify-content-center">
           <i className='fw-bold fa fa-phone mx-5' > +11030101</i>
-          <i class="fa fa-envelope fw-bold">  winteymart@bussiness.io.in</i>
+          <i class="fa fa-envelope fw-bold">  winteymart@bussiness.io.com</i>
           <i className='fw-bold fa fa-whatsapp mx-5' > +91 92318970</i>
           </div>
           <h6 className="fw-bold text-center mt-4"><u>Follow us</u></h6>
